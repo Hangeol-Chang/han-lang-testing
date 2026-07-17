@@ -4,5 +4,7 @@ num을 입력받는다.
 ans는 0이다.
 
 (num가 0보다 크다) 동안
-    quo는 num / 100 이다.
-    quo를 출력한다.
+    quo는 num % 100 이다.
+    ans는 ans + quo 이다.
+    num은 정수(num / 100) 이다.
+ans를 출력한다.

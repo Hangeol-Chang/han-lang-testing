@@ -1,0 +1,20 @@
+storage를 입력받는다.
+usage를 입력받는다.
+
+n을 입력받는다.
+사용량변화는 []이다.
+ans는 -1이다.
+
+i는 0이다.
+i가 0부터 n-1까지 동안
+  inp가 있다.
+  inp를 입력받는다.
+  사용량변화[i]는 inp이다.
+  usage는 정수(usage + usage*사용량변화[i])이다.
+  storage는 storage - usage이다.
+
+  만약 (storage가 0보다 작다)라면
+    ans는 i이다.
+    중단한다.
+
+ans를 출력한다.

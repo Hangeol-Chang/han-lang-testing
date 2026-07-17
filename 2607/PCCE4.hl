@@ -1,0 +1,18 @@
+아픈곳을 입력받는다.
+
+만약 ((아픈곳, "_eye")로 끝난다)라면
+  "Ophthalmologyc"를 출력한다.
+
+아니면
+  만약 ((아픈곳, "head")로 끝난다)라면
+    "Neurosurgery"를 출력한다.
+
+  아니면
+    만약 ((아픈곳, "infl")로 끝난다)라면
+      "Orthopedics"를 출력한다.
+
+    아니면
+      만약 ((아픈곳, "skin")로 끝난다)라면
+        "Dermatology"를 출력한다.
+      아니면
+        "direct recommendation"을 출력한다.
